@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable @next/next/no-img-element */
 import { ImageResponse } from "@vercel/og";
 
 export const config = {
@@ -21,7 +23,7 @@ export default async function handler() {
 					alignItems: "center",
 				}}
 			>
-				<img width="720" height="720" src={imageData} />
+				<img width="600" height="600" src={imageData} />
 			</div>
 		),
 		{
