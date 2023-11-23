@@ -26,10 +26,10 @@ export default async function handler() {
 						display: "flex",
 						color: "#477FEE",
 						fontWeight: 900,
-						fontSize: 180,
+						fontSize: 220,
 					}}
 				>
-					곰터뷰 💙
+					곰터뷰
 				</div>
 				<div
 					style={{
