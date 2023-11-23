@@ -15,15 +15,25 @@ export default async function handler() {
 			<div
 				style={{
 					display: "flex",
-					background: "#f6f6f6",
+					background: "#ffffff",
 					width: "100%",
 					height: "100%",
 					flexDirection: "row",
-					justifyContent: "space-around",
+					justifyContent: "center",
 					alignItems: "center",
+					gap: 50,
 				}}
 			>
-				<img width="540" height="540" src={imageData} />
+				<div
+					style={{
+						display: "flex",
+						color: "#000000",
+						fontSize: 80,
+					}}
+				>
+					곰터뷰 ⭐️
+				</div>
+				<img width="300" height="300" src={imageData} />
 			</div>
 		),
 		{
