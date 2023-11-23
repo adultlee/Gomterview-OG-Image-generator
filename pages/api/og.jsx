@@ -23,7 +23,7 @@ export default async function handler() {
 					alignItems: "center",
 				}}
 			>
-				<img width="600" height="600" src={imageData} />
+				<img width="540" height="540" src={imageData} />
 			</div>
 		),
 		{
