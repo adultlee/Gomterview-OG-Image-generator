@@ -1,11 +1,25 @@
 {
   "name": "gomterview-og-image-generator",
-  "version": "1.0.0",
-  "description": "곰터뷰 사이트에서 사용할 Og:Image를 생성하는 제네레이터",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "@vercel/og": "^0.5.20",
+    "next": "14.0.3",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.3",
+    "typescript": "^5"
+  }
 }
